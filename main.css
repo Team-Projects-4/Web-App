@@ -23,14 +23,14 @@ main{
 }
 
 .imageTable{
-  table-layout: fixed;
+  /* table-layout: fixed; */
   width: 100%;
   border-collapse: collapse;
   border: 3px solid purple;
 }
 
 
-@media screen and (max-width: 600px) {
+/* @media screen and (max-width: 600px) {
     main {
         flex-direction: column;
     }
@@ -45,4 +45,4 @@ main{
     header, footer{
         width:100%;
     }
-}
+} */
