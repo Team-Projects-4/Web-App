@@ -30,7 +30,7 @@ main{
 }
 
 
-/* @media screen and (max-width: 600px) {
+@media screen and (max-width: 600px) {
     main {
         flex-direction: column;
     }
@@ -45,4 +45,4 @@ main{
     header, footer{
         width:100%;
     }
-} */
+}
