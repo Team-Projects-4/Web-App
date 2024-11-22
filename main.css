@@ -120,14 +120,20 @@ footer{
     background-color: #6b9cb0;
 }
 
-@media screen and (min-width: 320px) and (max-width: 767px) {
+@media screen and (min-width: 320px) {
     main {
-        flex-direction: row;
-        width:100%; 
+        width:auto; 
     }
     
-    nav, img{
-        flex-direction: row;
+    nav {
+        padding: 0px;
+        /* height:10%; */
+        width:50%;
+    }
+
+    img{
+        flex-direction: column;
+        width: 50%;
     }
 
     header, footer{
