@@ -108,28 +108,19 @@ footer{
     background-color: #6b9cb0;
 }
 
-@media screen and (min-width:375px) and (max-width: 900px) {
-    section {
-        width:100%; 
-        height:100%;
-        text-align: center;
-        margin: 10%;
-    }
-    nav {
-      height: 10%;
-      padding:0px; 
-    }
-    img{
-        width: 100%;
-        height: 100%;
-    }
-    .scrollbar{
-      height: 20%;
-    }
+@media screen and (max-width: 375px) {
+  .gallery-container {
+      width: 100%;;
+  }
+  
+  img {
+      width:90%; 
+  }
+  main {
+    width: 100%;
+  }
 
-    /* header, footer{
-        width:100%;
-        height:100%;
-    } */
- 
+  header, nav, footer{
+      width:100%;
+  }
 }
