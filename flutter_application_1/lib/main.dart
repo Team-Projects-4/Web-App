@@ -73,6 +73,8 @@ class _DeathStarPlansPageState extends State<DeathStarPlansPage> {
       appBar: AppBar(
         title: const Text('Death Star Plans'),
         centerTitle: true,
+        backgroundColor: const Color(0xFF6B9CB0),
+
       ),
       body: Column(
         crossAxisAlignment: CrossAxisAlignment.stretch,
@@ -82,6 +84,7 @@ class _DeathStarPlansPageState extends State<DeathStarPlansPage> {
             child: Text(
               'Scroll Down To See Death Star Plans',
               style: TextStyle(
+                color: Color(0xFF6B9CB0),
                 fontSize: 18,
                 fontWeight: FontWeight.bold,
               ),
