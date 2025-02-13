@@ -35,6 +35,9 @@ class _DeathStarPlansPageState extends State<DeathStarPlansPage> {
     'assets/images/image9.png',
     'assets/images/image13.png',
     'assets/images/image35.png',
+    'assets/images/image9.png',
+    'assets/images/image13.png',
+    'assets/images/image35.png',
   ];
 
   void _updateScrollbarHeight() {
